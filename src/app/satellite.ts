@@ -15,6 +15,7 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
+		console.log("working?");
 		if(this.type === 'Space Debris') {
 			return true;
 		}
